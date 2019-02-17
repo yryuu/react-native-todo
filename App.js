@@ -6,6 +6,10 @@ import firebaseConfig from './config/firebase';
 
 firebase.initializeApp(firebaseConfig);
 
+import {
+  Container, Content, Header, Form, Input, Item, Button, Label
+} from 'native-base';
+
 export default class App extends React.Component {
   render() {
     return (
