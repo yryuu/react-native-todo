@@ -6,3 +6,5 @@ const firebaseConfig = {
     storageBucket: "bucket",
     messagingSenderId: "senderid"
 };
+
+export default firebaseConfig
